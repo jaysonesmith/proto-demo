@@ -1,0 +1,10 @@
+syntax = 'proto3';
+
+package demo_services.foo_service;
+
+import "demo_services/shared/currency.proto";
+
+message LineItem {
+	string item_token = 1;
+	Currency amount_currency = 2;
+}

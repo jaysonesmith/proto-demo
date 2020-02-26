@@ -1,0 +1,9 @@
+syntax = 'proto3';
+
+package demo_services.foo_service;
+
+import "demo_services/foo/foo_service/shared/line_item.proto";
+
+message CreateFooResponse {
+	repeated foo_service.LineItem line_items = 1;
+}

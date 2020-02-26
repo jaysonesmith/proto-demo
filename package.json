@@ -1,0 +1,16 @@
+{
+  "name": "proto-demo",
+  "scripts": {
+    "service": "npx babel-node index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@grpc/proto-loader": "^0.5.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+  }
+}
