@@ -3,6 +3,7 @@ syntax = 'proto3';
 package demo_services;
 
 import "demo_services/foo/foo_service/create_foo.proto";
+import "demo_services/foo/foo_service/shared/purchase.proto";
 
 service FooService {
   rpc CreateFoo(foo_service.Purchase) returns (foo_service.CreateFooResponse) {}

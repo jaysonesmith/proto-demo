@@ -1,6 +1,6 @@
 syntax = 'proto3';
 
-package demo_services.invoice_service;
+package demo_services.foo_service;
 
 message Purchase {
 	string user_token = 1;
