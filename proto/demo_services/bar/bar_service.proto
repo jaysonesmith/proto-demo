@@ -3,7 +3,6 @@ syntax = 'proto3';
 package demo_services;
 
 import "demo_services/bar/bar_service/shared/bar.proto";
-import "demo_services/bar/bar_service/create_bar.proto";
 import "demo_services/bar/bar_service/get_bar.proto";
 
 service BarService {
