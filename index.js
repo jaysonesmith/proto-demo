@@ -1,7 +1,11 @@
 import * as protoLoader from "@grpc/proto-loader"
+import path from "path"
+
+const includePath = path.join(__dirname, "./proto")
+console.log("includePath:", includePath)
 
 const opts = {
-  includeDirs: ['./proto']
+  includeDirs: [includePath]
 }
 
 const loadServiceProtos = (service) => {
